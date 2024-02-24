@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300,400,500,600,700,900&family=Ubuntu:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+* h1 {
+
+    color: #7c04b8;
+    font-size: 50px;
+    background-color: lightblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+*/ h2 {
+    color: black;
+    font-size: 30px;
+    background-color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.novedades {
+    color: black;
+    background-color: aquamarine;
+    width: 100%;
+    font-size: 19px;
+    font-size: 1.5rem;
+    text-align: center;
+
+
+
+
+}
+
+.parrafoNovedades {
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    font-size: 1.5rem;
+    width: 100%;
+    background-color: rgb(114, 194, 194);
+    text-align: center;
+
+}
+
+.nuevasAdopciones {
+
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    font-size: 1.5rem;
+    background-color: aquamarine;
+    width: 60%;
+    text-align: center;
+}
+
+
+.conoceAdopciones {
+
+    background-color: lightblue;
+    color: rgb(122, 122, 170);
+    font-size: 19px;
+    font-size: 1.5rem;
+    width: 60%;
+    text-align: center;
+
+}
+
+body {
+    background-color: lightpink
+}
+
+nav {
+    background-color: aliceblue;
+    height: 40px;
+    border-bottom: solid black;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 15px;
+    line-height: 30%;
+
+
+}
+
+footer {
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+img {
+    border-image-slice: fill;
+}
