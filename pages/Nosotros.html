@@ -7,44 +7,68 @@
     <script src="https://kit.fontawesome.com/3c6bed4845.js" crossorigin="anonymous"></script>
     <title>Centro de Mascotas- Patitas</title>
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css"">
+    <link rel=" stylesheet" href="../css/estilos.css">
 </head>
 
 <body>
     <header>
-        <img src="../assets/img/Logo.png.png" alt="Logo de Centro de Mascotas -Patitas">
-        <nav>
-            <ul>
-                <li> <a href="../index.html">Inicio</a></li>
-                <li> <a href="./nosotros.html">Conocenos</a></li>
-                <li><a href="./adopciones.html">Adopta</a></li>
-                <li> <a href="./donaciones.html">Apadrina</a></li>
-                <li> <a href="./contacto.html">Contactate</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-md navbar-light bg-gradient">
+            <div class="container-fluid">
+                <img src="../assets/img/Logo.png.png" alt="" width="30" height="24">
+                <a class="navbar-brand" href="">Centro de Mascotas Patitas</a>
 
-
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Donaciones.html">Donaciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Adopciones.html">Adopciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <section>
-        <img src="../assets/img/nosotros.png.jpg" alt="">
-        <h1> ¿Quiénes Somos y que hacemos?</h1>
-        <h5>Somos una ONG fundada en febrero del 2016 que rescata y ayuda a animales en situación de abandono.
-        </h5>
-        <P>
-            Brindamos la atención veterinaria y humana que cada animal necesita.
-        </P>
-        
-    </section>
-    <section>
-        <h1> Lo que queremos.</h1>
-        <p>
-            Promover la sensibilización colectiva fomentando la esterilización, el respeto a la vida, el NO al maltrato animal y la adopción responsable.
-        </p>
-
-    </section>
-        <section>
-            <p> Conocenos en Youtube</p>
+        <div class="container mt-5">
+            <div class="col">
+                <div class="row">
+                    <div class="card w-50 h-25 bg-secondary rounded m-auto p-3">
+                        <img src="../assets/img/nosotros.png.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">¿Quienes somos y que hacemos?</h5>
+                          <p class="card-text text-center">>Somos una ONG fundada en febrero del 2016 que rescata y ayuda a animales en situación de abandono.Brindamos la atención veterinaria y humana que cada animal necesita.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                      <div class="card w-50 h-25 bg-secondary rounded m-auto p-3 ">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Lo que queremos</h5>
+                          <p class="card-text text-center">Promover la sensibilización colectiva fomentando la esterilización, el respeto a la vida, el NO al maltrato animal y la adopción responsable.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                        <img src="../assets/img/noticiass.jpg" class="card-img-bottom " alt="...">
+                      </div>
+                </div>
+            </div>
+        </div>
+        <section class="youtube text-center">
+            <p class="yt bg-warning"> Conocenos en Youtube</p>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/ZQlKe0iSMpE?si=ylTqQoG0dcSFJ2Gr"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -83,6 +107,7 @@
         </section>
         <p>Todos los derechos Reservados</p>
     </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

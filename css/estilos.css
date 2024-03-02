@@ -6,76 +6,32 @@
 
 }
 
-* {
+*{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
 
-* h1 {
+h1 {
 
-    color: #7c04b8;
+    color: #000000;
     font-size: 50px;
-    background-color: lightblue;
+    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
 
-*/ h2 {
+h2 {
     color: black;
     font-size: 30px;
-    background-color: aquamarine;
+    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
-.novedades {
-    color: black;
-    background-color: aquamarine;
-    width: 100%;
-    font-size: 19px;
-    font-size: 1.5rem;
-    text-align: center;
-
-
-
-
-}
-
-.parrafoNovedades {
-    color: rgb(0, 0, 0);
-    font-size: 19px;
-    font-size: 1.5rem;
-    width: 100%;
-    background-color: rgb(114, 194, 194);
-    text-align: center;
-
-}
-
-.nuevasAdopciones {
-
-    color: rgb(0, 0, 0);
-    font-size: 19px;
-    font-size: 1.5rem;
-    background-color: aquamarine;
-    width: 60%;
-    text-align: center;
-}
-
-
-.conoceAdopciones {
-
-    background-color: lightblue;
-    color: rgb(122, 122, 170);
-    font-size: 19px;
-    font-size: 1.5rem;
-    width: 60%;
-    text-align: center;
-
-}
 
 body {
-    background-color: lightpink
+    background-image: url(https://static.vecteezy.com/system/resources/previews/006/431/804/original/seamless-dog-pattern-with-paw-prints-bones-hearts-and-balls-cat-foot-texture-pattern-with-doggy-pawprint-and-bones-dog-texture-hand-drawn-illustration-in-doodle-style-on-white-background-vector.jpg);
 }
 
 nav {
@@ -84,23 +40,18 @@ nav {
     border-bottom: solid black;
 }
 
-nav ul li {
-    float: left;
-    list-style: none;
-    margin: 15px;
-    line-height: 30%;
 
 
-}
-
-footer {
-    background-color: lightgray;
+.footer {
+    background-color: beige;
     color: black;
     text-align: center;
     height: 30px;
     line-height: 30px;
 }
 
-img {
-    border-image-slice: fill;
+
+
+.youtube{
+    background-image: url(https://th.bing.com/th/id/OIP.F-iuLAkhA8EdMm0b4HIFpAHaEW?rs=1&pid=ImgDetMain);
 }

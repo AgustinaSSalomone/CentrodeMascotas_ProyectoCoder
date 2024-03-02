@@ -7,52 +7,95 @@
     <script src="https://kit.fontawesome.com/3c6bed4845.js" crossorigin="anonymous"></script>
     <title>Centro de Mascotas- Patitas</title>
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 
 <body>
     <header>
-        <img src="../assets/img/Logo.png.png" alt="Logo de Centro de Mascotas -Patitas">
-        <nav>
-            <ul>
-                <li> <a href="../index.html">Inicio</a></li>
-                <li> <a href="./nosotros.html">Conocenos</a></li>
-                <li><a href="./adopciones.html">Adopta</a></li>
-                <li> <a href="./donaciones.html">Apadrina</a></li>
-                <li> <a href="./contacto.html">Contactate</a></li>
-            </ul>
-
-
-        </nav>
+        <nav class="navbar navbar-expand-md navbar-light bg-gradient">
+            <div class="container-fluid">
+              <img src="../assets/img/Logo.png.png" alt="" width="30" height="24">
+              <a class="navbar-brand" href="">Centro de Mascotas Patitas</a>
+      
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Donaciones.html">Donaciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Adopciones.html">Adopciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
-        <section class="donaciones">
+        <section class="donaciones text-center bg-warning">
             <h1> DONACIONES</h1>
             <P> ¡Toda ayuda es bienvenida!</P>
         </section>
-        <section class="img1">
-            <img src="../assets/img/alimentoperro2.jpeg" alt="">
-            <h4>Alimento balanceado para perros cachorros y adultos</h4>
-        </section>
-        <section class="img2">
-            <img src="../assets/img/collarperro2.jpeg" alt="">
-            <h4>Collares</h4>
-        </section>
-        <section class="img3">
-            <img src="../assets/img/cuchasperro.jpg" alt="">
-            <h4>Cuchas</h4>
-        </section>
-        <section class="img3">
-            <img src="../assets/img/pipetaperro2.jpeg" alt="">
-            <h4>Pipetas para pulgas y garrapatas</h4>
-        </section>
-        <section>
-            <h4> O podes enviarnos tu donacion </h4>
-            <a href="https://www.mercadopago.com.ar/" target="_blank">
-                <i class="fa-solid fa-money-bills-simple"></i>
-            </a>
-
-        </section>
+        <div class="container">
+            <div class="row">
+                
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/alimentoperro2.jpeg" class="card-img-top border border-4" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">ALIMENTO BALANCEADO</h5>
+                          <p class="card-text">Alimento Balanceado para perros cachorros y adultos.</p>
+                          <a href="./Contacto.html" class="btn btn-warning">DONAR</a>
+                         
+                          
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/pipetaperro2.jpeg" class="card-img-top border border-4 " alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">PIPETAS</h5>
+                          <p class="card-text">Pipetas para pulgas y garrapatas para todos los tamaños.</p>
+                          <a href="./Contacto.html" class="btn btn-warning">DONAR</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/collarperro2.jpeg" class="card-img-top border border-4 " alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">COLLARES</h5>
+                          <p class="card-text">Collares de cualquier tamaño y material.</p>
+                          <a href="./Contacto.html" class="btn btn-warning">DONAR</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/cuchasperro.jpg" class="card-img-top border border-4 " alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">CUCHAS</h5>
+                          <p class="card-text">Cuchas para todos los tamaños y de cuaquier material.</p>
+                          <a href="./Contacto.html" class="btn btn-warning">DONAR</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
 
     </main>
     <footer>
@@ -87,6 +130,8 @@
         </section>
         <p>Todos los derechos Reservados</p>
     </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
+
 
 </html>

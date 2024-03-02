@@ -7,53 +7,148 @@
     <script src="https://kit.fontawesome.com/3c6bed4845.js" crossorigin="anonymous"></script>
     <title>Centro de Mascotas- Patitas</title>
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 
 <body>
     <header>
-        <img src="../assets/img/Logo.png.png" alt="Logo de Centro de Mascotas -Patitas">
-        <nav>
-            <ul>
-                <li> <a href="../index.html">Inicio</a></li>
-                <li> <a href="./nosotros.html">Conocenos</a></li>
-                <li><a href="./adopciones.html">Adopta</a></li>
-                <li> <a href="./donaciones.html">Apadrina</a></li>
-                <li> <a href="./contacto.html">Contactate</a></li>
-            </ul>
-
-
-        </nav>
+        <nav class="navbar navbar-expand-md navbar-light bg-gradient">
+            <div class="container-fluid">
+              <img src="../assets/img/Logo.png.png" alt="" width="30" height="24">
+              <a class="navbar-brand" href="">Centro de Mascotas Patitas</a>
+      
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Donaciones.html">Donaciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Adopciones.html">Adopciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
-        <h1> ADOPCIONES</h1>
-        <p> Hay muchos animales esperando una familia que los quiera.
+        <h1 class="titulo text-center bg-warning"> ADOPCIONES</h1>
+        <p class="parrafo bg-white text-center"> Hay muchos animales esperando una familia que los quiera.
             Las adopciones son con compromiso de castracion y seguimiento.
-        <section class="conoceAdopciones">
-            <h2>Conocelos:</h2>
-            <img src="../assets/img/perro pequeño (1).jpg" alt="">
-            <h3>Pedro</h3>
-            <h4>Macho, 3 Años</h4>
-            <ul>
-                <li> <a href="./Contacto.html">Info</a></li>
-            </ul>
-        </section>
-        <section class="conoceAdopciones">
-            <img src="../assets/img/perro pequeño (2).jpg" alt="">
-            <h3>Ambar</h3>
-            <h4>Hembra, 10 Años</h4>
-            <ul>
-                <li> <a href="./Contacto.html">Info</a></li>
-            </ul>
-        </section>
-        <section class="conoceAdopciones">
-            <img src="../assets/img/perroadopcion2.jpg" alt="">
-            <h3>Dobby</h3>
-            <h4>Macho, 11 Año</h4>
-            <ul>
-                <li> <a href="./Contacto.html"></a></li>
-            </ul>
-        </section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card mb-3 border-danger" style="max-width: 300px;">
+                        <div class="row g-0">
+                          <div class="col-md-15">
+                            <img src="../assets/img/perro.png.jpg" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-10">
+                            <div class="card-body ">
+                              <h5 class="card-title text-center bg-warning">PEDRO</h5>
+                              <p class="card-text">MACHO, 3 años, castrado. Le gusta mucho correr y jugar, se lleva bien con perros y gatos. Amante de la manzana.</p>
+                              <p class="card-text"><small class="text-muted">Dale una oportunidad.</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3 border-danger" style="max-width: 300px;">
+                        <div class="row g-0">
+                          <div class="col-md-15">
+                            <img src="../assets/img/perroadopcion.jpg" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-10">
+                            <div class="card-body">
+                              <h5 class="card-title text-center bg-warning ">HOPE</h5>
+                              <p class="card-text">HEMBRA, 7 años, castrada. Le gusta mucho jugar con pelotas. Se lleva bien con perros, no con gatos. Amante de la mandarina.</p>
+                              <p class="card-text"><small class="text-muted">Dale una oportunidad</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3 border-danger" style="max-width: 300px;">
+                        <div class="row g-0">
+                          <div class="col-md-15">
+                            <img src="../assets/img/perroadopcion2.jpg" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-10">
+                            <div class="card-body">
+                              <h5 class="card-title text-center bg-warning ">DOBBY</h5>
+                              <p class="card-text">MACHO, 1 año. Soy un cachorro que juega con todo. Se lleva bien con perros y gatos. Amante de los cartones y maderas.</p>
+                              <p class="card-text"><small class="text-muted">Dale una oportunidad</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3 border-danger" style="max-width: 300px;">
+                        <div class="row g-0">
+                          <div class="col-md-15">
+                            <img src="../assets/img/perro pequeño 3.jpg" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-10">
+                            <div class="card-body">
+                              <h5 class="card-title text-center bg-warning ">MORA</h5>
+                              <p class="card-text">HEMBRA, 5 años. Me gusta dormir. Se lleva bien con gatos y algunos perros. Amante de la zanahoria.</p>
+                              <p class="card-text"><small class="text-muted">Dale una oportunidad</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3 border-danger" style="max-width: 300px;">
+                        <div class="row g-0">
+                          <div class="col-md-15">
+                            <img src="../assets/img/pexels-amal-santhosh-662417.jpg" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-10">
+                            <div class="card-body">
+                              <h5 class="card-title text-center bg-warning">AMBAR</h5>
+                              <p class="card-text">HEMBRA, 10 años. Le gusta dormir y comer. Miedo a los gatos. Salta mucho para obtener su tan deseada manzana.</p>
+                              <p class="card-text"><small class="text-muted">Dale una oportunidad</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3 border-danger" style="max-width: 300 px;">
+                        <div class="row g-0">
+                          <div class="col-md-15">
+                            <img src="../assets/img/perro pequeño (1).jpg" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-10">
+                            <div class="card-body">
+                              <h5 class="card-title text center bg-warning">MOZ</h5>
+                              <p class="card-text">Macho, 4 años. Le gusta correr,, pasear y traer cosas que encuentre. Amante del queso.</p>
+                              <p class="card-text"><small class="text-muted">Dale una oportunidad</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                
+            </div>
+        </div>
 
     </main>
     <footer>
@@ -88,6 +183,7 @@
         </section>
         <p>Todos los derechos Reservados</p>
     </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
