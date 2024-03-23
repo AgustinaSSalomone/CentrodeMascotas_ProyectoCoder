@@ -22,17 +22,21 @@ h2 {
 }
 
 body {
-  background-image: url(https://static.vecteezy.com/system/resources/previews/006/431/804/original/seamless-dog-pattern-with-paw-prints-bones-hearts-and-balls-cat-foot-texture-pattern-with-doggy-pawprint-and-bones-dog-texture-hand-drawn-illustration-in-doodle-style-on-white-background-vector.jpg);
+  background-image: url(https://static8.depositphotos.com/1535772/1004/v/950/depositphotos_10046850-stock-illustration-background-with-dog-paw-print.jpg);
 }
 
 nav {
-  background-color: aliceblue;
+  background-color: rgb(240, 180, 112);
   height: 40px;
   border-bottom: solid black;
 }
+ .tituloDonaciones{
+  color: #ddd;
+}
+
 
 .footer {
-  background-color: beige;
+  background-color: rgb(247, 235, 235);
   color: black;
   text-align: center;
   height: 30px;
@@ -44,12 +48,14 @@ nav {
 }
 
 .containerCard {
-  background-image: linear-gradient(to left bottom, #a15994, #d56785, #f3856e, #f6af5d, #e1dc68);
+  background: linear-gradient(0deg, rgba(195,101,34,1) 28%, rgba(201,145,22,1) 54%);
 }
 
 h3 {
-  color: #f0b2e0;
+  color: #9b7a50;
 }
+
+
 
 .text {
   color: #1a1916;
@@ -77,7 +83,7 @@ h3 {
 }
 
 .folded-corner:hover {
-  background-color: #f58ed6;
+  background-color: #f5c88e;
 }
 
 .folded-corner:before {
@@ -91,7 +97,7 @@ h3 {
 }
 
 .folded-corner:hover:before {
-  background-color: #ff8be6;
+  background-color: #f1ba71;
   border-width: 0 50px 50px 0;
   border-color: #eee #000;
 }
@@ -110,12 +116,107 @@ h3 {
   line-height: 1;
   font-size-adjust: none;
   font-stretch: normal;
-  -moz-font-feature-settings: normal;
-  -moz-font-language-override: normal;
   text-rendering: auto;
   transition: all 0.65s linear 0s;
   text-align: center;
   transition: all 1s cubic-bezier(0.99, 0.82, 0.11, 1.41);
 }
+
+.cardtext {
+  color: #fdf4ec;
+  text-align: end;
+}
+
+p{
+  font-weight: bold;
+}
+.btn3{
+  text-align: center;
+}
+.btn3 button{
+  width: 150px;
+  height: 30px;
+  background-color: burlywood;
+  border: 3px solid black; border-radius: 10%;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.btn3 button:hover{
+  background-color: rgb(252, 149, 31);
+}
+@media screen and (max-width:895px){
+  .btn3 button{
+      width: 100px;
+  }
+}
+
+.card{
+  background-color: rgb(241, 215, 180);
+  border-radius: 10%;
+}
+
+.header-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #e0d18e;
+}
+
+.banner-image {
+  order: 2;
+  z-index: 5;
+}
+.banner-image img {
+  clip-path: polygon(30% 0, 100% 0%, 100% 100%, 30% 100%, 5% 50%);
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-image img {
+    clip-path: none;
+  }
+}
+
+.banner-arrow {
+  background-color: #dfa271;
+  display: flex;
+}
+
+.banner-arrow-text {
+  position: absolute;
+  right: 15%;
+  z-index: 10;
+  bottom: 20rem;
+  left: 11% !important;
+  padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-image {
+    order: 1;
+  }
+  .banner-arrow {
+    order: 2;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-arrow-text {
+    bottom: 1rem;
+  }
+}
+
+.btn2 button{
+  width: 100px;
+  height: 30px;
+  background: transparent;
+  border: 1px solid black;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.btn2 button:hover{
+  background-color: rgb(224, 163, 93);
+}
+
+
 
 /*# sourceMappingURL=estilos.css.map */

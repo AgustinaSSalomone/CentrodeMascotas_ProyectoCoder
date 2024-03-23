@@ -1,0 +1,25 @@
+.btn3{
+    text-align: center;
+  }
+  .btn3 button{
+    width: 150px;
+    height: 30px;
+    background-color: burlywood;
+    border: 3px solid black; border-radius: 10%;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+  .btn3 button:hover{
+    background-color: rgb(252, 149, 31);
+  }
+  .btn2 button{
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+  .btn2 button:hover{
+    background-color: rgb(224, 163, 93);
+  }

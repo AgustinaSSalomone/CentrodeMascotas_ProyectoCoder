@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300,400,500,600,700,900&family=Ubuntu:wght@300;400&display=swap");
+
+
 * {
   margin: 0;
   padding: 0;
@@ -110,10 +112,12 @@ h3 {
   line-height: 1;
   font-size-adjust: none;
   font-stretch: normal;
-  -moz-font-feature-settings: normal;
-  -moz-font-language-override: normal;
   text-rendering: auto;
   transition: all 0.65s linear 0s;
   text-align: center;
   transition: all 1s cubic-bezier(0.99, 0.82, 0.11, 1.41);
-}/*# sourceMappingURL=estilos.css.map */
+
+
+
+
+/*# sourceMappingURL=estilos.css.map */

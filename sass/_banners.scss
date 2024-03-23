@@ -1,0 +1,50 @@
+.header-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #e0d18e;
+  }
+  
+  .banner-image {
+    order: 2;
+    z-index: 5;
+  }
+  .banner-image img {
+    clip-path: polygon(30% 0, 100% 0%, 100% 100%, 30% 100%, 5% 50%);
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .banner-image img {
+      clip-path: none;
+    }
+  }
+  
+  .banner-arrow {
+    background-color: #dfa271;
+    display: flex;
+  }
+  
+  .banner-arrow-text {
+    position: absolute;
+    right: 15%;
+    z-index: 10;
+    bottom: 20rem;
+    left: 11% !important;
+    padding-bottom: 30px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .banner-image {
+      order: 1;
+    }
+    .banner-arrow {
+      order: 2;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .banner-arrow-text {
+      bottom: 1rem;
+    }
+  }
+  
