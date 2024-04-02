@@ -1,60 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300,400,500,600,700,900&family=Ubuntu:wght@300;400&display=swap');
 @import "footer"
-@import "footer"
+@import "banners"
+@import "botonones"
+@import "menu"
+@import "tarjetas"
+@import "variables"
 
 
 
-* {
-    margin: 0;
-    padding: 0;
 
-}
-
-* {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-}
-@mixin fontstyle{ color: #000000;
-                  color: black;
-                  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-h1 {
-    
-    font-size: 50px;
-@include fontstyle();
-}
-
-
-
-h2 {
-    
-    font-size: 30px;
-    @include fontstyle();
-}
-
-
-body {
-    background-image: url(https://static.vecteezy.com/system/resources/previews/006/431/804/original/seamless-dog-pattern-with-paw-prints-bones-hearts-and-balls-cat-foot-texture-pattern-with-doggy-pawprint-and-bones-dog-texture-hand-drawn-illustration-in-doodle-style-on-white-background-vector.jpg);
-}
-
-
-h3 {
-    color: #f0b2e0;
-}
-
-  p{
-    font-weight: bold;
-  }
-  
-  @media screen and (max-width:895px){
-    .btn3 button{
-        width: 100px;
-    }
-  }
-  
-  
-  
-  
-  
-  
