@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: $font-family_1;
+	font-weight: 300;
+}
+h1 {
+	color: $color_1;
+	font-size: 50px;
+	font-family: $font-family_2;
+}
+h2 {
+	color: $color_2;
+	font-size: 30px;
+	font-family: $font-family_2;
+}
+body {
+	@mixin Fondo($color){
+		background-image: url(https://static8.depositphotos.com/1535772/1004/v/950/depositphotos_10046850-stock-illustration-background-with-dog-paw-print.jpg);
+	}
+}
+nav {
+	background-color: $background-color_1;
+	height: 40px;
+	border-bottom: solid black;
+}
+	.nav-link{
+		margin-left: 30px;
+		font-weight: bold;
+		color:$color_2	
+	}
+	
+
+.header-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: $background-color_3;
+}
+.banner-image {
+	order: 2;
+    img {
+		clip-path: polygon(30% 0, 100% 0%, 100% 100%, 30% 100%, 5% 50%);
+	
+	}
+}
+.banner-arrow {
+	background-color: $background-color_9;
+	display: flex;
+}
+.banner-arrow-text {
+	position:-ms-page;
+	right: 15%;
+    bottom: 10rem;
+	left: 11% !important;
+	padding-bottom: 3px;
+}
+.btn2 {
+	button {
+		width: 100px;
+		height: 30px;
+		background: transparent;
+		border: 1px solid black;
+		transition: 0.5s ease;
+		cursor: pointer;
+	}
+}
+@media screen and (max-width:895px) {
+	.btn3 {
+		button {
+			width: 100px;
+		}
+	}
+}
+@media only screen and (max-width: 768px) {
+	.banner-image {
+		img {
+			clip-path: none;
+		}
+		order: 1;
+	}
+	.banner-arrow {
+		order: 2;
+	}
+	.banner-arrow-text {
+		bottom: 1rem;
+	}
+}
